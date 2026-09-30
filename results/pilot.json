@@ -1,0 +1,153 @@
+{
+  "seed": 2027,
+  "dataset": "PhysioNet EEG Motor Movement/Imagery v1.0.0",
+  "train_runs": [
+    4,
+    8
+  ],
+  "test_run": 12,
+  "mask_fraction": 0.25,
+  "mask_repeats": 5,
+  "clean_score_fields": [
+    "accuracy",
+    "balanced_accuracy",
+    "macro_f1",
+    "tn",
+    "fp",
+    "fn",
+    "tp"
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "train_n": 30,
+      "test_n": 15,
+      "ordinary_clean": [
+        0.4666666666666667,
+        0.4732142857142857,
+        0.4642857142857143,
+        4,
+        3,
+        5,
+        3
+      ],
+      "robust_clean": [
+        0.4666666666666667,
+        0.4642857142857143,
+        0.4642857142857143,
+        3,
+        4,
+        4,
+        4
+      ],
+      "ordinary_masked_mean_balanced_accuracy": 0.43392857142857144,
+      "robust_masked_mean_balanced_accuracy": 0.41785714285714287
+    },
+    {
+      "id": 2,
+      "train_n": 30,
+      "test_n": 15,
+      "ordinary_clean": [
+        0.5333333333333333,
+        0.5625,
+        0.4444444444444444,
+        1,
+        7,
+        0,
+        7
+      ],
+      "robust_clean": [
+        0.5333333333333333,
+        0.5625,
+        0.4444444444444444,
+        1,
+        7,
+        0,
+        7
+      ],
+      "ordinary_masked_mean_balanced_accuracy": 0.6,
+      "robust_masked_mean_balanced_accuracy": 0.5732142857142858
+    },
+    {
+      "id": 3,
+      "train_n": 30,
+      "test_n": 15,
+      "ordinary_clean": [
+        0.4,
+        0.42857142857142855,
+        0.2857142857142857,
+        0,
+        8,
+        1,
+        6
+      ],
+      "robust_clean": [
+        0.4666666666666667,
+        0.5,
+        0.3181818181818182,
+        0,
+        8,
+        0,
+        7
+      ],
+      "ordinary_masked_mean_balanced_accuracy": 0.4767857142857143,
+      "robust_masked_mean_balanced_accuracy": 0.4928571428571429
+    },
+    {
+      "id": 4,
+      "train_n": 30,
+      "test_n": 15,
+      "ordinary_clean": [
+        0.4666666666666667,
+        0.49107142857142855,
+        0.4,
+        1,
+        7,
+        1,
+        6
+      ],
+      "robust_clean": [
+        0.4666666666666667,
+        0.49107142857142855,
+        0.4,
+        1,
+        7,
+        1,
+        6
+      ],
+      "ordinary_masked_mean_balanced_accuracy": 0.5696428571428571,
+      "robust_masked_mean_balanced_accuracy": 0.5696428571428571
+    },
+    {
+      "id": 5,
+      "train_n": 30,
+      "test_n": 15,
+      "ordinary_clean": [
+        0.6666666666666666,
+        0.6517857142857143,
+        0.6411483253588517,
+        3,
+        4,
+        1,
+        7
+      ],
+      "robust_clean": [
+        0.5333333333333333,
+        0.5267857142857143,
+        0.5248868778280543,
+        3,
+        4,
+        3,
+        5
+      ],
+      "ordinary_masked_mean_balanced_accuracy": 0.5125,
+      "robust_masked_mean_balanced_accuracy": 0.4767857142857143
+    }
+  ],
+  "mean_subject_balanced_accuracy": {
+    "ordinary_clean": 0.5214285714285715,
+    "robust_clean": 0.5089285714285714,
+    "ordinary_masked": 0.5185714285714287,
+    "robust_masked": 0.5060714285714286
+  }
+}
